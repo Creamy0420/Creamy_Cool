@@ -1,0 +1,132 @@
+body {
+    font-family: Arial, sans-serif; 
+    background-color: #FFFDD0; 
+    color: #333; 
+    margin: 0; 
+    padding: 0; 
+    cursor: url('images/CREAMY_MOUSE.png'), auto;
+}
+
+header, nav, footer {
+    
+    background-color: #FFDD55;
+    color: #8B4513;
+    padding: 10px;
+    text-align: center;
+}
+
+img {
+    width: 100%; 
+    height: auto;
+}
+
+nav {
+    background-color: #F4A460;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin: 0 10px;
+}
+nav li a {
+    font-weight: bold;
+    height: 20px;
+    text-decoration: none;
+    color: #FFFFFF;
+    }
+nav li a:hover {
+    background: #333;
+    color: #FFFF99;
+     }
+nav a {
+    color: #FFFFFF;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+#content {
+    padding: 20px;
+}
+
+iframe {
+    width: 100%; 
+    min-height: 700px; 
+    border: none; 
+}
+.container {
+    display: grid;
+    justify-content: center; 
+}
+#main {
+    border: 5px solid #8B4513; 
+    border-radius: 10px; 
+    width: 1200px; 
+    height: 700px; 
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); 
+    }
+
+.slider div {
+    width: 100%; 
+    height: 500px; 
+    overflow: hidden; 
+}
+
+.slider img {
+    width: auto; 
+    height: 100%; 
+    margin: auto; 
+}
+.slick-dots {
+    position: absolute;
+    bottom: 10px; 
+    width: 100%; 
+    text-align: center; 
+    z-index: 10; 
+}
+.slick-prev, .slick-next {
+    position: absolute;
+    top: 50%; 
+    z-index: 10; 
+    transform: translateY(-50%); 
+    background-color: rgba(0, 0, 0, 0.5); 
+    color: white; 
+    width: 30px; 
+    height: 30px; 
+    border-radius: 15px; 
+    text-align: center; 
+    line-height: 30px; 
+    cursor: pointer; 
+}
+
+.slick-prev {
+    left: 10px; 
+}
+
+.slick-next {
+    right: 10px; 
+}
+footer {
+    font-size: 0.8em; 
+    color: #666; 
+    img {
+        width: 72px !important;
+        height: 48px !important;
+    }
+    
+}
+.link-container {
+    display: flex;  
+    justify-content: center; 
+    align-items: center; 
+}

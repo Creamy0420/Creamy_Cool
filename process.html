@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>製作歷程</title>
+    <link rel="stylesheet" href="prostyle.css"> 
+</head>
+<body>
+    <div class="container">
+        <h1>製作歷程</h1>
+        <ul>
+            <li>
+                <strong>導航欄問題：</strong>導航欄內的按鈕不能均勻分布置中。
+                <div class="solution">
+                    <strong>解決方法：</strong>使用 Flexbox 並設置 <code>justify-content: space-around;</code> 屬性來置中按鈕。
+                </div>
+            </li>
+            <li>
+                <strong>底部郵件圖示不能置中：</strong>郵件連結的圖片未能在原有的框架中置中顯示。
+                <div class="solution">
+                    <strong>解決方法：</strong>使用 <code>display: block;</code> 和 <code>margin: auto;</code> 設定為水平居中。
+                </div>
+            </li>
+            <li>
+                <strong>圖片尺寸不一致問題：</strong>來自不同來源的圖片尺寸不一，導致版面混亂。
+                <div class="solution">
+                    <strong>解決方法：</strong>統一圖片尺寸並使用 CSS 的 <code>object-fit</code> 屬性調整。
+                </div>
+            </li>
+            <li>
+                <strong>CSS 樣式衝突：</strong>引入第三方庫後，原有的 CSS 樣式程式碼發生衝突。
+                <div class="solution">
+                    <strong>解決方法：</strong>提高自定義樣式的優先權或使用 <code>!important</code>改善。
+                </div>
+            </li>
+            <li>
+                <strong>導航欄呈現方式問題：</strong>導航欄在不同裝置上顯示不正確。
+                <div class="solution">
+                    <strong>解決方法：</strong>使用媒體查詢改善導航欄的架構。
+                </div>
+            </li>
+        </ul>
+        <h2>製作心得</h2>
+        <p>
+            在這次的網頁製作過程中，我深刻體會到前端開發的多樣性和挑戰性。特別是在網頁架構和設計方面，需要考慮的細節非常多，每一步都可能影響最終的使用者體驗。透過解決問題，我學到了更有效率地使用 CSS Flexbox 和 Grid 系统，這讓我對程式編碼有了更深的認識。
+        </p>
+    </div>
+</body>
+</html>
